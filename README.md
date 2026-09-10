@@ -7,8 +7,6 @@ https://drive.google.com/file/d/1iyjeeGo0vQHOlLfhl4m_UCvnD_yn4p1K/view?usp=shari
 ### Live Deploy
 https://new-moon-level3.vercel.app/
 
-[![Continuous Integration](https://github.com/Aaru1316/level3-new-moon/actions/workflows/ci.yml/badge.svg)](https://github.com/Aaru1316/level3-new-moon/actions/workflows/ci.yml)
-
 An upgraded, production-grade, zero-knowledge privacy-preserving decentralized application (dApp) built on the **Midnight Blockchain Network**. This platform empowers eligible voters to cast anonymous YES/NO ballots on proposals across multiple categories (Governance, Grants, Technical, Community). Votes are verifiably tabulated on-chain via zkSNARK circuits without revealing the voter's address or choice mapping.
 
 ---
