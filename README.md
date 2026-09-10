@@ -5,7 +5,7 @@ The video demonstration below shows the full functionality in action: proposal c
 https://drive.google.com/file/d/1iyjeeGo0vQHOlLfhl4m_UCvnD_yn4p1K/view?usp=sharing
 
 ### Live Deploy
-https://level3-new-moon-one.vercel.app/
+https://new-moon-level3.vercel.app/
 
 [![Continuous Integration](https://github.com/Aaru1316/level3-new-moon/actions/workflows/ci.yml/badge.svg)](https://github.com/Aaru1316/level3-new-moon/actions/workflows/ci.yml)
 
