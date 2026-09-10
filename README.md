@@ -75,7 +75,7 @@ The smart contract for the Private Voting dApp is deployed and active on the **M
 ![alt text](image-5.png)
 
 **CI Pipeline**
-![alt text](image-2.png)
+![alt text](image-6.png)
 
 ## Testing Guide
 
