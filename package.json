@@ -10,7 +10,8 @@
     "compile": "wsl /home/aaru/.local/bin/compact compile contracts/voting.compact src/generated",
     "dev": "vite",
     "build": "tsc && vite build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "verify": "node scripts/verify-suite.js"
   },
   "dependencies": {
     "@midnight-ntwrk/midnight-js-contracts": "4.1.1",
