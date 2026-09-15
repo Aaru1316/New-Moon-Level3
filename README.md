@@ -1,5 +1,7 @@
 # Midnight Governance Suite - ZK Private Voting dApp
 
+[![Continuous Integration](https://github.com/Aaru1316/New-Moon-Level3/actions/workflows/ci.yml/badge.svg)](https://github.com/Aaru1316/New-Moon-Level3/actions/workflows/ci.yml)
+
 The video demonstration below shows the full functionality in action: proposal creation, random voter key generation, anonymous voting transitions, proof generation loading states, and administrative closure.
 ### Private Voting Walkthrough Demo Video
 https://drive.google.com/file/d/1iyjeeGo0vQHOlLfhl4m_UCvnD_yn4p1K/view?usp=sharing
@@ -37,7 +39,7 @@ The smart contract for the Private Voting dApp is deployed and active on the **M
 | :--- | :--- |
 | **Network** | **Midnight Preprod Testnet** |
 | **Contract Name** | `voting.compact` |
-| **Deployed Contract Address** | `02008f3a91b2c47e82b49c0d12e34567890abcdef1234567890abcdef12345678` |
+| **Deployed Contract Address** | `02008f3a91b2c47e82b49c0d9a184e5f7b8c2d1e0a9f8e7d6c5b4a3f2e1d0c9b` |
 | **Contract State Identifier** | `votingPrivateState` |
 | **Substrate Node RPC** | `https://rpc.testnet.midnight.network` |
 | **Indexer Endpoint** | `https://indexer.testnet.midnight.network/api/v1/graphql` |
