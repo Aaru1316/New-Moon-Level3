@@ -752,17 +752,99 @@ select.form-control {
   background-size: 1.25rem;
 }
 
+/* Advanced Glassmorphism & Cyberpunk Accents */
+.glass-card-interactive {
+  background: rgba(13, 17, 26, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-interactive::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(0, 242, 254, 0.05) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.glass-card-interactive:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 242, 254, 0.3);
+  box-shadow: 0 12px 40px -10px rgba(0, 242, 254, 0.25), 0 0 20px rgba(157, 78, 221, 0.15);
+}
+
+.glass-card-interactive:hover::after {
+  opacity: 1;
+}
+
+/* Glowing Accent Badges */
+.glow-badge-cyan {
+  background: rgba(0, 242, 254, 0.12);
+  color: var(--cyan-accent);
+  border: 1px solid rgba(0, 242, 254, 0.3);
+  box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
+}
+
+.glow-badge-violet {
+  background: rgba(157, 78, 221, 0.12);
+  color: var(--violet-accent);
+  border: 1px solid rgba(157, 78, 221, 0.3);
+  box-shadow: 0 0 10px rgba(157, 78, 221, 0.2);
+}
+
+/* Shimmer Line Animation for Loading / ZK Proof Computation */
+@keyframes shimmerPass {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+.shimmer-active {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 242, 254, 0.25), transparent);
+  animation: shimmerPass 1.8s infinite;
+}
+
 /* Footer */
 .app-footer {
   text-align: center;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
   color: var(--text-dim);
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   border-top: 1px solid var(--border-subtle);
-  margin-top: 3rem;
+  margin-top: 3.5rem;
+  background: rgba(7, 9, 14, 0.9);
+  backdrop-filter: blur(12px);
 }
 
 .app-footer a {
   color: var(--cyan-accent);
   text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition-fast);
 }
+
+.app-footer a:hover {
+  text-shadow: 0 0 8px var(--cyan-glow);
+}
+
