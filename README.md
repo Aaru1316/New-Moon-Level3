@@ -1,13 +1,13 @@
 # Midnight Governance Suite - ZK Private Voting dApp
 
-[![Continuous Integration](https://github.com/Aaru1316/New-Moon-Level3/actions/workflows/ci.yml/badge.svg)](https://github.com/Aaru1316/New-Moon-Level3/actions/workflows/ci.yml)
+[![Continuous Integration]https://github.com/Aaru1316/New-Moon-Level3/actions]
 
 The video demonstration below shows the full functionality in action: proposal creation, random voter key generation, anonymous voting transitions, proof generation loading states, and administrative closure.
 ### Private Voting Walkthrough Demo Video
 https://drive.google.com/file/d/1iyjeeGo0vQHOlLfhl4m_UCvnD_yn4p1K/view?usp=sharing
 
 ### Live Deploy
-https://new-moon-level3.vercel.app/
+https://level3-moon.vercel.app/
 
 An upgraded, production-grade, zero-knowledge privacy-preserving decentralized application (dApp) built on the **Midnight Blockchain Network**. This platform empowers eligible voters to cast anonymous YES/NO ballots on proposals across multiple categories (Governance, Grants, Technical, Community). Votes are verifiably tabulated on-chain via zkSNARK circuits without revealing the voter's address or choice mapping.
 
